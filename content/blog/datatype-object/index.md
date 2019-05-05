@@ -71,3 +71,15 @@ var obj = { p: 1 }
 
 1. 类似于 in 操作符，它也会遍历到所有属性，包括继承来的属性。
 2. 它只会遍历到 enumerable 为 true 的属性。
+
+## 新建对象
+
+通过 `var o = new Object()` 方法创建一个对象实例，都是基于 Object 这个 base 对象的基础上，因此也会继承 Object 原始对象的一些属性和方法：
+
+- Constructor：保存着用于创建当前对象的函数。
+- hasOwnProperty(propertyName)：检查属性在当前实例中是否存在。
+- isPrototypeOf(Object)：检查该实例是否是某一个实例的原型。
+- propertyIsEnumerable(propertyName)：检查属性是否可枚举，即是否可以在 `for...in` 中被遍历出来。
+- toLocaleString()：返回对象的字符串表示，该字符串与执行环境的地区相同。
+- toString()：返回对象的字符串表示。
+- valueOf()：通常与 toString() 的返回值相同。
