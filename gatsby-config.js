@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Orange`,
+    title: `Kexin Li`,
     author: `Kexin Li`,
     description: `My orange club`,
     siteUrl: `https://likexin.netlify.com/`,
@@ -68,11 +68,11 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-typography`,
+    //   options: {
+    //     pathToConfigModule: `src/utils/typography`,
+    //   },
+    // },
   ],
 }

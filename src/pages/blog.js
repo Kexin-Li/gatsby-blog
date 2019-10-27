@@ -4,17 +4,17 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import Nav from '../components/Nav'
 
-class AboutPage extends React.Component {
+class BlogPage extends React.Component {
   render() {
     return (
       <Layout location={this.props.location}>
-        <SEO title="Kexin Li" />
-        <header>Kexin Li</header>
+        <SEO title="Thoughts" />
+        <header>Thoughts</header>
         <Nav />
-        <div>☺️</div>
+        <div>😳</div>
       </Layout>
     )
   }
 }
 
-export default AboutPage
+export default BlogPage
